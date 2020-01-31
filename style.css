@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*-------------NAVIGATION------------------------*/
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar-brand img{
+	height: 100px;
+	padding-left: 30px;
+}
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	float: right;
+	text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+	color: #007bff!important;
+	transition: 0.6s ease;
+}
+
+.navbar{
+	background: #fff;
+}
+
+.navbar-toggler{
+	border: none!important;
+}
+
+.nav-link{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/*-------------------------------------SLIDER-------------------------------------------*/
+
+#slider{
+	height: 50%;
+	width: 100%
+}
+
+.carousel-caption{
+	top:50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+
+.carousel-caption h5{
+	color:white;
+	font-size: 70px;
+}
+
+#about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+
+#about .btn{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.about-content{
+	padding-top: 20px;
+}
+
+.skills-bar p{
+	margin-bottom: 10px;
+}
+
+.progress-bar{
+	border-radius: 16px;
+}
+
+.progress{
+	border-radius: 16px!important;
+	margin-bottom: 50px;
+}
